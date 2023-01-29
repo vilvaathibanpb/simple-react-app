@@ -1,8 +1,9 @@
+import { FormattedMessage } from "react-intl";
 
 const Text = () => {
   return (
     <p>
-      This is a simple react component to build custom Webpack and Babel plugin
+      <FormattedMessage id="this_is_a_sim" />
     </p>
   );
 };
